@@ -1,0 +1,156 @@
+[
+  {
+    "model": "department.employee",
+    "pk": 1,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Smith",
+      "department": 1,
+      "salary": 1000,
+      "slug": "james-smith"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 2,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Williams",
+      "department": 1,
+      "salary": 2000,
+      "slug": "john-williams"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 3,
+    "fields": {
+      "first_name": "Patricia",
+      "last_name": "Miller",
+      "department": 1,
+      "salary": 1000,
+      "slug": "patricia-miller"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 4,
+    "fields": {
+      "first_name": "Barbara",
+      "last_name": "Rodriguez",
+      "department": 2,
+      "salary": 3000,
+      "slug": "barbara-rodriguez"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 5,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Wilson",
+      "department": 2,
+      "salary": 2000,
+      "slug": "jennifer-wilson"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 6,
+    "fields": {
+      "first_name": "William",
+      "last_name": "Johnson",
+      "department": 3,
+      "salary": 2000,
+      "slug": "william-johnson"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 7,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Garcia",
+      "department": 3,
+      "salary": 1000,
+      "slug": "michael-garsia"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 8,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Jones",
+      "department": 4,
+      "salary": 4000,
+      "slug": "david-jones"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 9,
+    "fields": {
+      "first_name": "Maria",
+      "last_name": "Brown",
+      "department": 4,
+      "salary": 1000,
+      "slug": "maria-brown"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 10,
+    "fields": {
+      "first_name": "Elizabeth",
+      "last_name": "Garcia",
+      "department": 5,
+      "salary": 2000,
+      "slug": "elizabeth-garcia"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 11,
+    "fields": {
+      "first_name": "Richard",
+      "last_name": "Davis",
+      "department": 5,
+      "salary": 3000,
+      "slug": "richard-davis"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 12,
+    "fields": {
+      "first_name": "Charles",
+      "last_name": "Martine",
+      "department": 6,
+      "salary": 2000,
+      "slug": "charles-martine"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 13,
+    "fields": {
+      "first_name": "Linda",
+      "last_name": "Smith",
+      "department": 7,
+      "salary": 4000,
+      "slug": "linda-smith"
+    }
+  },
+  {
+    "model": "department.employee",
+    "pk": 14,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "department": 7,
+      "salary": 2000,
+      "slug": "robert-brown"
+    }
+  }
+]

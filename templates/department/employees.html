@@ -1,0 +1,16 @@
+{% extends "department/base.html" %}
+
+{% block title %} Employees {% endblock %}
+
+{% block content %}
+    <h1>Employees</h1>
+    {% if employees %}
+        <ul>
+            {% for employee in employees %}
+            <li>
+                <a href="">{{ employee.first_name }} {{ employee.last_name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

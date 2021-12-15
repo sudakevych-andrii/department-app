@@ -1,0 +1,17 @@
+{% extends "department/base.html" %}
+
+{% block title %} {{ employee.first_name }} {{ employee.last_name }} {% endblock %}
+
+{% block content %}
+    <h1>{{ employee.first_name }} {{ employee.last_name }}</h1>
+    <div>
+        <strong>Department:</strong>
+        <a href="{% url 'department' employee.department.slug %}">{{ employee.department.title }}</a>
+    </div>
+    {% if employee.date_of_birth %}
+        <div>Date of birth: {{ employee.date_of_birth }}</div>
+    {% endif %}
+    {% if employee.salary %}
+        <div><strong>Salary</strong>: {{ employee.salary }}</div>
+    {% endif %}
+{% endblock %}

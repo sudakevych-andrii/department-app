@@ -1,0 +1,28 @@
+{% extends "department/base.html" %}
+
+{% block title %} Departments {% endblock %}
+
+{% block content %}
+    <h1 class="department-name">{{ department.title }}</h1>
+    {% if department.description %}
+        <div class="department-description">
+            {{ department.description }}
+        </div>
+    {% endif %}
+    <div class="employees-list-wrap">
+        <div>Employees list</div>
+        {% if employees %}
+            <ul class="employees-list">
+                {% for employee in employees %}
+                    <li class="employees-list-item">
+                        <a href="{% url 'employee' employee.slug %}">{{ employee.first_name }} {{ employee.last_name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+    <div class="view-all">
+        <a href="{% url 'departments' %}">View all departments</a>
+    </div>
+{% endblock %}
+

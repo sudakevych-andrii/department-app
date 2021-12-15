@@ -1,0 +1,98 @@
+[
+  {
+    "model": "department.department",
+    "pk": 1,
+    "fields": {
+      "title" : "PDT Administration",
+      "slug": "pdt-administration"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 2,
+    "fields": {
+      "title" : "PDT Marketing",
+      "slug": "pdt-marketing"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "department.department",
+    "fields": {
+      "title" : "Transportation",
+      "slug": "transportation"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 4,
+    "fields": {
+      "title" : "Shipping",
+      "slug": "shipping"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "department.department",
+    "fields": {
+      "title" : "Human Resources",
+      "slug": "human-resources"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 5,
+    "fields": {
+      "title" : "Operations",
+      "slug": "operations"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 6,
+    "fields": {
+      "title" : "Inventory",
+      "slug": "inventory"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 7,
+    "fields": {
+      "title" : "Sales",
+      "slug": "sales"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 8,
+    "fields": {
+      "title" : "Finance",
+      "slug": "finance"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 9,
+    "fields": {
+      "title" : "Documentation",
+      "slug": "documentation"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 10,
+    "fields": {
+      "title" : "Billing",
+      "slug": "billing"
+    }
+  },
+  {
+    "model": "department.department",
+    "pk": 11,
+    "fields": {
+      "title" : "Control And Credit",
+      "slug": "control-and-credit"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{% extends "department/base.html" %}
+
+{% block title %}Departments{% endblock %}
+
+{% block content %}
+    <h1>Departments</h1>
+    {% if departments %}
+        {% for department in departments %}
+            <ul class="departments-list">
+                <li class="departments-list-item">
+                    <a href="{% url 'department' department.department.slug %}">{{ department.department.title }}</a>
+                    <div>Total salary: {{department.total_salary}}</div>
+                    <div>Average salary: {{ department.average_salary }}</div>
+                </li>
+            </ul>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
+
